@@ -28,6 +28,7 @@ function M.setup(p, config)
       bg_darker = p.bg_darker,
       bg_raised = bg_raised,
       bg_selected = p.bg_selected,
+      bg_visual = p.bg_visual,
       border = p.border,
       subtle = p.subtle,
       muted = p.muted,
@@ -37,7 +38,7 @@ function M.setup(p, config)
       cursor = p.orange,
       selection = p.border,
       highlight = p.border,
-      visual = p.border,
+      visual = p.bg_visual,
 
       float_bg = float_bg,
       float_border = p.fg,
