@@ -16,7 +16,7 @@ M.get = function(theme)
     GitSignsChangeLn = { bg = diff.change_bg },
     GitSignsDeleteLn = { bg = diff.delete_bg },
 
-    GitSignsCurrentLineBlame = { fg = theme.ui.subtle, italic = true },
+    GitSignsCurrentLineBlame = { fg = theme.ui.subtle },
   }
 end
 
