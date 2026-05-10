@@ -16,6 +16,7 @@ function M.get(theme)
     "vesper.highlights.plugins.flash",
     "vesper.highlights.plugins.gitsigns",
     "vesper.highlights.plugins.snacks",
+    "vesper.highlights.plugins.treesitter-context",
   }
 
   for _, mod_name in ipairs(modules) do
