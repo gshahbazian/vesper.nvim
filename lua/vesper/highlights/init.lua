@@ -13,6 +13,7 @@ function M.get(theme)
 
   local plugins = {
     "vesper.highlights.plugins.blink-cmp",
+    "vesper.highlights.plugins.fff",
     "vesper.highlights.plugins.flash",
     "vesper.highlights.plugins.gitsigns",
     "vesper.highlights.plugins.snacks",
